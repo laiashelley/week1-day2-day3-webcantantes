@@ -1,0 +1,465 @@
+body{
+  background-color: beige;
+}
+
+.body-background{
+  background-color: rgba(244, 173, 173, 0.25);
+  border-radius: 5px;
+  padding: 20px 20px 20px 20px;
+}
+
+#header{
+  padding: 20px 20px 20px 10px;
+  margin: 10px;
+  background-color: rgba(135, 229, 218, 0.45);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #033b28;
+  #link-header{
+    a{
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      font-size: medium;
+      color: rgba(50, 11, 11, 1);
+      background-color: rgba(146, 164, 192, 0.5);
+      padding: 10px;
+      padding-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid rgba(0, 0, 0, 1);
+      width: 120px;
+      text-align: center;
+      text-decoration: none;
+      &:hover{
+        background-color: rgba(12, 140, 98, 0.42);
+        border-style: solid;
+        border-color: darkslategrey;
+      }
+    }
+  }
+}
+
+#title-home{
+  background-color: rgba(244, 173, 173, 0.55);
+  border-radius: 5px;
+  border-color: rgba(167, 119, 119, 1);
+  border-style: dashed;
+  margin-left: 10px;
+  margin-right: 10px;
+  h1{
+    text-align: center;
+    color: rgba(50, 11, 11, 1);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding-top: 5px;
+  }
+}
+
+#parrafo-home{
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  border-style: dashed;
+  background-color: rgba(255, 212, 128, 0.55);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  margin: 10px;
+  border-color: rgba(205, 139, 9, 0.404);
+}
+
+#image-background{
+  background-color: rgba(229, 140, 219, 0.25);
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #033b28;
+  margin: 10px;
+}
+
+.div-image{
+  display:flex; 
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  img{
+    width: 600px;
+    height: 400px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-color: darkgreen;
+  }
+}
+
+table{
+  display: flex;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: gray;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  a{
+    &:hover{
+      border-radius: 10px;
+      border-color: rgb(150, 183, 212);
+      border-style: groove;
+    }
+  }
+  
+}
+
+#crowd-1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    img{
+      width: 300px;
+      height: 200px;
+      border-radius: 50px;
+      padding: 10px;
+      padding-bottom: 10px;
+      border-color: darkgreen;
+    }
+  }
+
+#crowd-2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    img{
+      width: 300px;
+      height: 200px;
+      border-radius: 50px;
+      padding: 10px;
+      padding-bottom: 10px;
+      border-color: darkgreen;
+    }
+  }
+
+#crowd-3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    img{
+      width: 300;
+      height: 200px;
+      border-radius: 50px;
+      padding: 10px;
+      padding-bottom: 10px;
+      border-color: darkgreen;
+    }
+  }
+
+#another-top-artists{
+  display: flex;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: gray;
+  align-items: center;
+  justify-content: center;
+  a{
+    &:hover{
+      border-radius: 10px;
+      border-color: rgb(150, 183, 212);
+      border-style: groove;
+    }
+  }
+}
+
+.other-artists{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  img{
+    width: 300;
+    height: 200px;
+    border-radius: 50px;
+    padding: 10px;
+    padding-bottom: 10px;
+    border-color: darkgreen;
+  }
+}
+
+#div-parrafo-bad-bunny{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  text-align: justify;
+  background-color: rgba(255, 212, 128, 0.55);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  border-style:dotted;
+  border-color: rgba(205, 139, 9, 0.404);
+  margin-right: 10px;
+  width: 400px;
+}
+
+.singer-especification{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div-parrafo-taylor-swift{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  text-align: justify;
+  background-color: rgba(255, 212, 128, 0.55);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  border-style:dotted;
+  border-color: rgba(205, 139, 9, 0.404);
+  margin-right: 10px;
+  width: 400px;
+}
+
+.discography{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  table{
+    color: rgba(50, 11, 11, 1);
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(50, 11, 11, 1);
+    padding: 20px;
+    border-spacing: 10px;
+    th{
+      text-align:left;
+    }
+  }
+}
+
+
+#div-parrafo-the-weeknd{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  text-align: justify;
+  background-color: rgba(255, 212, 128, 0.55);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  border-style:dotted;
+  border-color: rgba(205, 139, 9, 0.404);
+  margin-right: 10px;
+  width: 400px;
+}
+
+#single-taylor{
+  display:flex;
+  background-color: rgba(229, 140, 219, 0.25);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #033b28;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#single-theweeknd{
+  display:flex;
+  background-color: rgba(229, 140, 219, 0.25);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #033b28;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#single-badbunny{
+  display:flex;
+  background-color: rgba(229, 140, 219, 0.25);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #033b28;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  color: rgba(50, 11, 11, 1);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 5px;
+}
+
+h3,h2{
+  color:rgba(50, 11, 11, 1);
+  text-align: center;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-top: 0px;
+}
+
+
+a[href="HTML-2_ejercicio2_20240110.html"],[href="https://www.spotify.es/"],[href="https://www.youtube.es/"],[href="HTML-2_ejercicio3_20240115.html"]{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: medium;
+  color: beige;
+  background-color: rgba(146, 164, 192, 0.5);
+  padding: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #0c8c62;
+  width: 120px;
+  text-align: center;
+  text-decoration: none;
+  &:hover{
+    background-color: #0c8c62;
+    border-style: solid;
+    border-color: darkslategrey;
+  }
+}
+
+a[href="HTML-2_ejercicio2_20240110.html"] {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: medium;
+  color: beige;
+  background-color: darkslategrey;
+  padding: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #6283df;
+  width: 120px;
+  text-align: center;
+  text-decoration: none;
+  &:hover {
+    background-color: #6283df;
+    border-style: solid;
+    border-color: darkslategrey;
+  }
+}
+
+a[href="https://open.spotify.com/intl-es/artist/06HL4z0CvFAxyc27GXpf02"], a[href="https://open.spotify.com/intl-es/artist/4q3ewBCX7sLwd24euuV69X"], a[href="https://open.spotify.com/intl-es/artist/1Xyo4u8uXC1ZmMpatF05PJ"]
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: medium;
+  color: beige;
+  background-color: darkslategrey;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #04fe11;
+  width: 120px;
+  text-align: center;
+  text-decoration: none;
+  &:hover{
+    background-color: #04fe11;
+    border-style: solid;
+    border-color: darkslategray;
+  }
+}
+
+form{
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+  }
+  form{
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  label{
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
+  input, select{
+    width: 20%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+  }
+  button{
+    color: rgba(50, 11, 11, 1);
+    font-weight: bolder;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: rgba(135, 229, 218, 0.45);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #033b28;
+    margin-top: 20px;
+    &:hover{
+      background-color: rgba(12, 140, 98, 0.42);
+      border-style: solid;
+      border-color: darkslategrey;
+    }
+  }
+}
+
+footer{
+  display: flex;
+  background-color: rgba(12, 140, 98, 0.42);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  justify-content: center;
+  text-align: center;
+  ul{
+    display:block;
+    padding-inline-start: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
+#footer-link{
+  a{
+    font-size: small;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color:rgba(50, 11, 11, 1);
+    &:hover{
+      color: rgba(244, 173, 173);
+    }
+  }
+}
+
+span{
+  color: rgba(50, 11, 11, 1);
+  font-size: large;
+  font-weight: bolder;
+}
